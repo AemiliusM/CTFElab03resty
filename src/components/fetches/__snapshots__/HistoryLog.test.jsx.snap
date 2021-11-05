@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`history test should render a single history 1`] = `
+<DocumentFragment>
+  <article>
+    <p>
+      GET
+    </p>
+    <span>
+      https://jsonplaceholder.typicode.com/todos/1
+    </span>
+  </article>
+</DocumentFragment>
+`;

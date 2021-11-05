@@ -10,10 +10,10 @@ export default function Controls({
      return (
          <section>
             <form onSubmit={onSubmit}>
-                <input className='url' type='text' name='url' placeholder='URL' onChange={onInputChange} />
+                <input className='url' role="textbox" type='text' name='url' placeholder='URL' onChange={onInputChange} />
                 <section>
                     <div>
-                        <input type='radio' id='get' name='method' value='GET' onChange={onInputChange} checked={method === 'GET'} />
+                        <input type='radio' role='radio' id='get' name='method' value='GET' onChange={onInputChange} checked={method === 'GET'} />
                         <label htmlFor='get'>GET</label>
 
                         <input type='radio' id='post' name='method' value='POST' onChange={onInputChange} checked={method === 'POST'} />

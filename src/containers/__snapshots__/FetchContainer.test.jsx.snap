@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shows fetch tool and results should display fetch tool results 1`] = `
+Array [
+  <label
+    for="get"
+  >
+    GET
+  </label>,
+  <p>
+    GET
+  </p>,
+]
+`;
